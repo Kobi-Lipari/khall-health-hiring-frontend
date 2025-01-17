@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.body{
+    font-size: 15pt;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    color: #dca0f8;
+    position:relative;
+    top: -15px;
+}
+h2{
+    text-align: center;
+    font-size: 20pt;
+    color: #ae5b95;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    padding: 0 1rem;
+}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.call-to-action {
+    text-align: center;
+    padding: 2rem;
+    background-position: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.call-to-action h1 {
+    margin: 0.5rem 0;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: white;
+}
+.tagline-mission {
+    display: flex;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding-bottom: 4rem;
+}
+.shrinkimg{
+    float: left;
+    width: 60%;
+    height: 75%;
+    margin-right: 20px;
+}
+
+.centerBox{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.special{
+    color:#dca0f8;
+    font-size:22pt;
+}
+.features {
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #dca0f8;
+}
+
+.feature-item {
+    padding: 0.5rem 0;
+    display: block;
+    align-items: center;
+}
+.feature-item li{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+li img{
+    margin-left: auto;
+    margin-right: auto;
+    width:  50px; 
+    height: 50px;
+}
+.feature-item input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+.footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
