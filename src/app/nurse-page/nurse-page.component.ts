@@ -18,17 +18,10 @@ import { FormBuilder } from '@angular/forms';
 import { NgIf } from '@angular/common';
 
 @Component({
-
-selector: 'app-nurse-page',
-
-standalone: true,
-
-imports: [RouterModule, NgFor, CommonModule, NgIf],
-
-templateUrl: './nurse-page.component.html',
-
-styleUrl: './nurse-page.component.css'
-
+    selector: 'app-nurse-page',
+    imports: [RouterModule, NgFor, CommonModule, NgIf],
+    templateUrl: './nurse-page.component.html',
+    styleUrl: './nurse-page.component.css'
 })
 
 

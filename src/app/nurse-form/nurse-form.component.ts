@@ -7,11 +7,10 @@ import { CommonModule, NgIf } from '@angular/common';
 import {} from '@angular/common/http';
 
 @Component({
-  selector: 'app-nurse-form',
-  standalone: true,
-  imports: [ NgIf, ReactiveFormsModule],
-  templateUrl: './nurse-form.component.html',
-  styleUrl: './nurse-form.component.css'
+    selector: 'app-nurse-form',
+    imports: [NgIf, ReactiveFormsModule],
+    templateUrl: './nurse-form.component.html',
+    styleUrl: './nurse-form.component.css'
 })
 export class NurseFormComponent {
 

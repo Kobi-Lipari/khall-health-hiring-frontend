@@ -10,11 +10,10 @@ import { LoggingInService } from '../logging-in.service';
 import { UsersForLoggingInService } from '../users-for-logging-in.service';
 
 @Component({
-  selector: 'app-hospital-sign-up',
-  standalone: true,
-  imports: [ReactiveFormsModule, NgIf],
-  templateUrl: './hospital-sign-up.component.html',
-  styleUrl: './hospital-sign-up.component.css'
+    selector: 'app-hospital-sign-up',
+    imports: [ReactiveFormsModule, NgIf],
+    templateUrl: './hospital-sign-up.component.html',
+    styleUrl: './hospital-sign-up.component.css'
 })
 
 

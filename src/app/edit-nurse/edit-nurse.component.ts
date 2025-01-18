@@ -11,11 +11,10 @@ import { NgIf } from '@angular/common';
 
 
 @Component({
-  selector: 'app-edit-nurse',
-  standalone: true,
-  imports: [ReactiveFormsModule, NgIf],
-  templateUrl: './edit-nurse.component.html',
-  styleUrl: './edit-nurse.component.css'
+    selector: 'app-edit-nurse',
+    imports: [ReactiveFormsModule, NgIf],
+    templateUrl: './edit-nurse.component.html',
+    styleUrl: './edit-nurse.component.css'
 })
 export class EditNurseComponent implements OnInit {
   successMessage: string | null = null; // Added successMessage property

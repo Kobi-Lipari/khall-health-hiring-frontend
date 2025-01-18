@@ -8,11 +8,10 @@ import { NgIf } from '@angular/common';
 import { UsersForLoggingInService } from '../users-for-logging-in.service';
 import { Router } from '@angular/router';
 @Component({
-  selector: 'app-sign-up',
-  standalone: true,
-  imports: [ReactiveFormsModule, NgIf],
-  templateUrl: './sign-up.component.html',
-  styleUrl: './sign-up.component.css'
+    selector: 'app-sign-up',
+    imports: [ReactiveFormsModule, NgIf],
+    templateUrl: './sign-up.component.html',
+    styleUrl: './sign-up.component.css'
 })
 export class SignUpComponent {
   signUpForm: FormGroup;

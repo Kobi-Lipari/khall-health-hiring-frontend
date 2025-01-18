@@ -13,11 +13,10 @@ import { JobService } from '../job.service';
 
 
 @Component({
-  selector: 'app-edit-jobs',
-  standalone: true,
-  imports: [NgIf, ReactiveFormsModule],
-  templateUrl: './edit-jobs.component.html',
-  styleUrl: './edit-jobs.component.css'
+    selector: 'app-edit-jobs',
+    imports: [NgIf, ReactiveFormsModule],
+    templateUrl: './edit-jobs.component.html',
+    styleUrl: './edit-jobs.component.css'
 })
 export class EditJobsComponent {
   jobForm: FormGroup | null = null;

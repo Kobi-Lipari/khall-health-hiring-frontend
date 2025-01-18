@@ -11,11 +11,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 
 @Component({
-  selector: 'app-choosing-role',
-  standalone: true,
-  imports: [ReactiveFormsModule,],
-  templateUrl: './choosing-role.component.html',
-  styleUrl: './choosing-role.component.css'
+    selector: 'app-choosing-role',
+    imports: [ReactiveFormsModule,],
+    templateUrl: './choosing-role.component.html',
+    styleUrl: './choosing-role.component.css'
 })
 
 export class ChoosingRoleComponent implements OnInit {

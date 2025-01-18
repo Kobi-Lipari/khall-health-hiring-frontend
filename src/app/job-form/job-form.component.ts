@@ -6,11 +6,10 @@ import { NgIf } from '@angular/common';
 import { JobService } from '../job.service';
 
 @Component({
-  selector: 'app-job-form',
-  standalone: true,
-  imports: [ReactiveFormsModule, NgIf],
-  templateUrl: './job-form.component.html',
-  styleUrl: './job-form.component.css'
+    selector: 'app-job-form',
+    imports: [ReactiveFormsModule, NgIf],
+    templateUrl: './job-form.component.html',
+    styleUrl: './job-form.component.css'
 })
 export class JobFormComponent implements OnInit {
   jobForm: FormGroup;

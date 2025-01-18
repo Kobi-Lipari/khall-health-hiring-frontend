@@ -7,11 +7,10 @@ import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [RouterLink,NgIf],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+    selector: 'app-header',
+    imports: [RouterLink, NgIf],
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.css'
 })
 
 export class HeaderComponent implements OnInit {

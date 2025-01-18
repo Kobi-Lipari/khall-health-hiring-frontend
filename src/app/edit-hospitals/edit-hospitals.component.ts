@@ -13,11 +13,10 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-edit-hospitals',
-  standalone: true,
-  imports: [NgIf, ReactiveFormsModule],
-  templateUrl: './edit-hospitals.component.html',
-  styleUrl: './edit-hospitals.component.css'
+    selector: 'app-edit-hospitals',
+    imports: [NgIf, ReactiveFormsModule],
+    templateUrl: './edit-hospitals.component.html',
+    styleUrl: './edit-hospitals.component.css'
 })
 export class EditHospitalComponent implements OnInit {
   editHospitalForm: FormGroup | null = null;

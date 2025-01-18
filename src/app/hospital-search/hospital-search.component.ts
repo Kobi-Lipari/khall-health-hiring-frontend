@@ -21,11 +21,10 @@ import { HospitalService } from '../hospital.service';
 
 
 @Component({
-  selector: 'app-hospital-search',
-  standalone: true,
-  imports: [NgFor, NgIf, RouterModule],
-  templateUrl: './hospital-search.component.html',
-  styleUrls: ['./hospital-search.component.css']
+    selector: 'app-hospital-search',
+    imports: [NgFor, NgIf, RouterModule],
+    templateUrl: './hospital-search.component.html',
+    styleUrls: ['./hospital-search.component.css']
 })
 export class HospitalSearchComponent  implements OnInit {
   hospitalArray: Hospital[] = [];

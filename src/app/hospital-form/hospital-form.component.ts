@@ -6,11 +6,10 @@ import { NgIf } from '@angular/common';
 
 
 @Component({
-  selector: 'app-hospital-form',
-  standalone: true,
-  imports: [ReactiveFormsModule, NgIf],
-  templateUrl: './hospital-form.component.html',
-  styleUrl: './hospital-form.component.css'
+    selector: 'app-hospital-form',
+    imports: [ReactiveFormsModule, NgIf],
+    templateUrl: './hospital-form.component.html',
+    styleUrl: './hospital-form.component.css'
 })
 
 export class HospitalFormComponent implements OnInit {

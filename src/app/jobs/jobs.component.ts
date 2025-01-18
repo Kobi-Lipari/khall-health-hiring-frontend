@@ -21,11 +21,10 @@ import { NgIf } from '@angular/common';
 import { Job } from '../job.service';
 
 @Component({
-  selector: 'app-jobs',
-  standalone: true,
-  imports: [NgFor, NgIf, RouterModule],
-  templateUrl: './jobs.component.html',
-  styleUrl: './jobs.component.css'
+    selector: 'app-jobs',
+    imports: [NgFor, NgIf, RouterModule],
+    templateUrl: './jobs.component.html',
+    styleUrl: './jobs.component.css'
 })
 export class JobsComponent implements OnInit {
   jobsArray: Job[] = [];

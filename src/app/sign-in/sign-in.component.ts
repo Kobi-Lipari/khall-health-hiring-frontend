@@ -9,11 +9,10 @@ import { LoggingInService } from '../logging-in.service';
 
 
 @Component({
-  selector: 'app-sign-in',
-  standalone: true,
-  imports: [ReactiveFormsModule, NgIf],
-  templateUrl: './sign-in.component.html',
-  styleUrl: './sign-in.component.css'
+    selector: 'app-sign-in',
+    imports: [ReactiveFormsModule, NgIf],
+    templateUrl: './sign-in.component.html',
+    styleUrl: './sign-in.component.css'
 })
 
 
