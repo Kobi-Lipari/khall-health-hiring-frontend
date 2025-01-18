@@ -4,12 +4,16 @@ import { NgForm } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { NurseService } from '../nurse.service';
 import { CommonModule, NgIf } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import {} from '@angular/common/http';
 
 @Component({
   selector: 'app-nurse-form',
   standalone: true,
-  imports: [ NgIf, ReactiveFormsModule, HttpClientModule],
+  imports: [ NgIf, ReactiveFormsModule, 
+// TODO: `HttpClientModule` should not be imported into a component directly.
+// Please refactor the code to add `provideHttpClient()` call to the provider list in the
+// application bootstrap logic and remove the `HttpClientModule` import from this component.
+HttpClientModule],
   templateUrl: './nurse-form.component.html',
   styleUrl: './nurse-form.component.css'
 })
