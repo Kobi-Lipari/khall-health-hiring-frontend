@@ -9,11 +9,7 @@ import {} from '@angular/common/http';
 @Component({
   selector: 'app-nurse-form',
   standalone: true,
-  imports: [ NgIf, ReactiveFormsModule, 
-// TODO: `HttpClientModule` should not be imported into a component directly.
-// Please refactor the code to add `provideHttpClient()` call to the provider list in the
-// application bootstrap logic and remove the `HttpClientModule` import from this component.
-HttpClientModule],
+  imports: [ NgIf, ReactiveFormsModule],
   templateUrl: './nurse-form.component.html',
   styleUrl: './nurse-form.component.css'
 })

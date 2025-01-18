@@ -10,11 +10,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-sign-up',
   standalone: true,
-  imports: [ReactiveFormsModule, 
-// TODO: `HttpClientModule` should not be imported into a component directly.
-// Please refactor the code to add `provideHttpClient()` call to the provider list in the
-// application bootstrap logic and remove the `HttpClientModule` import from this component.
-HttpClientModule, NgIf],
+  imports: [ReactiveFormsModule, NgIf],
   templateUrl: './sign-up.component.html',
   styleUrl: './sign-up.component.css'
 })

@@ -11,11 +11,7 @@ import { LoggingInService } from '../logging-in.service';
 @Component({
   selector: 'app-sign-in',
   standalone: true,
-  imports: [ReactiveFormsModule, 
-// TODO: `HttpClientModule` should not be imported into a component directly.
-// Please refactor the code to add `provideHttpClient()` call to the provider list in the
-// application bootstrap logic and remove the `HttpClientModule` import from this component.
-HttpClientModule, NgIf],
+  imports: [ReactiveFormsModule, NgIf],
   templateUrl: './sign-in.component.html',
   styleUrl: './sign-in.component.css'
 })
